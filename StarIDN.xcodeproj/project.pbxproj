@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43B02F813F19CB3009FD717 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02F713F19CB3009FD717 /* UIKit.framework */; };
+		A43B02FA13F19CB3009FD717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02F913F19CB3009FD717 /* Foundation.framework */; };
+		A43B02FC13F19CB3009FD717 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02FB13F19CB3009FD717 /* CoreGraphics.framework */; };
+		A43B030213F19CB3009FD717 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43B030013F19CB3009FD717 /* InfoPlist.strings */; };
+		A43B030513F19CB3009FD717 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B030413F19CB3009FD717 /* main.m */; };
+		A43B030813F19CB3009FD717 /* StarIDNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B030713F19CB3009FD717 /* StarIDNAppDelegate.m */; };
+		A43B030B13F19CB3009FD717 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43B030913F19CB3009FD717 /* MainWindow.xib */; };
+		A43B030E13F19CB3009FD717 /* StarIDNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B030D13F19CB3009FD717 /* StarIDNViewController.m */; };
+		A43B031113F19CB3009FD717 /* StarIDNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43B030F13F19CB3009FD717 /* StarIDNViewController.xib */; };
+		A43B031813F19CB3009FD717 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02F713F19CB3009FD717 /* UIKit.framework */; };
+		A43B031913F19CB3009FD717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02F913F19CB3009FD717 /* Foundation.framework */; };
+		A43B031A13F19CB3009FD717 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B02FB13F19CB3009FD717 /* CoreGraphics.framework */; };
+		A43B032213F19CB3009FD717 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43B032013F19CB3009FD717 /* InfoPlist.strings */; };
+		A43B032513F19CB3009FD717 /* StarIDNTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A43B032413F19CB3009FD717 /* StarIDNTests.h */; };
+		A43B032713F19CB3009FD717 /* StarIDNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B032613F19CB3009FD717 /* StarIDNTests.m */; };
+		A43B03E113F19E78009FD717 /* AiOS_IO.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B03DC13F19E78009FD717 /* AiOS_IO.m */; };
+		A43B03E213F19E78009FD717 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B03DE13F19E78009FD717 /* Error.m */; };
+		A43B03E313F19E78009FD717 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B03E013F19E78009FD717 /* SocketIO.m */; };
+		A43B03E513F1A2EF009FD717 /* Agilent Logo retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A43B03E413F1A2EF009FD717 /* Agilent Logo retina.png */; };
+		A498D46D13F1BF880079EFC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A498D46C13F1BF880079EFC4 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43B031B13F19CB3009FD717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43B02EA13F19CB2009FD717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B02F213F19CB3009FD717;
+			remoteInfo = StarIDN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43B02F313F19CB3009FD717 /* StarIDN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarIDN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43B02F713F19CB3009FD717 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A43B02F913F19CB3009FD717 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A43B02FB13F19CB3009FD717 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A43B02FF13F19CB3009FD717 /* StarIDN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarIDN-Info.plist"; sourceTree = "<group>"; };
+		A43B030113F19CB3009FD717 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A43B030313F19CB3009FD717 /* StarIDN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarIDN-Prefix.pch"; sourceTree = "<group>"; };
+		A43B030413F19CB3009FD717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A43B030613F19CB3009FD717 /* StarIDNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarIDNAppDelegate.h; sourceTree = "<group>"; };
+		A43B030713F19CB3009FD717 /* StarIDNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarIDNAppDelegate.m; sourceTree = "<group>"; };
+		A43B030A13F19CB3009FD717 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A43B030C13F19CB3009FD717 /* StarIDNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarIDNViewController.h; sourceTree = "<group>"; };
+		A43B030D13F19CB3009FD717 /* StarIDNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarIDNViewController.m; sourceTree = "<group>"; };
+		A43B031013F19CB3009FD717 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StarIDNViewController.xib; sourceTree = "<group>"; };
+		A43B031713F19CB3009FD717 /* StarIDNTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarIDNTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43B031F13F19CB3009FD717 /* StarIDNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarIDNTests-Info.plist"; sourceTree = "<group>"; };
+		A43B032113F19CB3009FD717 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A43B032313F19CB3009FD717 /* StarIDNTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarIDNTests-Prefix.pch"; sourceTree = "<group>"; };
+		A43B032413F19CB3009FD717 /* StarIDNTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarIDNTests.h; sourceTree = "<group>"; };
+		A43B032613F19CB3009FD717 /* StarIDNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarIDNTests.m; sourceTree = "<group>"; };
+		A43B03DB13F19E78009FD717 /* AiOS_IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AiOS_IO.h; path = "Agilent iOS IO/AiOS_IO.h"; sourceTree = "<group>"; };
+		A43B03DC13F19E78009FD717 /* AiOS_IO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AiOS_IO.m; path = "Agilent iOS IO/AiOS_IO.m"; sourceTree = "<group>"; };
+		A43B03DD13F19E78009FD717 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Error.h; path = "Agilent iOS IO/Error.h"; sourceTree = "<group>"; };
+		A43B03DE13F19E78009FD717 /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Error.m; path = "Agilent iOS IO/Error.m"; sourceTree = "<group>"; };
+		A43B03DF13F19E78009FD717 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketIO.h; path = "Agilent iOS IO/SocketIO.h"; sourceTree = "<group>"; };
+		A43B03E013F19E78009FD717 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketIO.m; path = "Agilent iOS IO/SocketIO.m"; sourceTree = "<group>"; };
+		A43B03E413F1A2EF009FD717 /* Agilent Logo retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Agilent Logo retina.png"; sourceTree = SOURCE_ROOT; };
+		A498D46C13F1BF880079EFC4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43B02F013F19CB3009FD717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B02F813F19CB3009FD717 /* UIKit.framework in Frameworks */,
+				A43B02FA13F19CB3009FD717 /* Foundation.framework in Frameworks */,
+				A43B02FC13F19CB3009FD717 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43B031313F19CB3009FD717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B031813F19CB3009FD717 /* UIKit.framework in Frameworks */,
+				A43B031913F19CB3009FD717 /* Foundation.framework in Frameworks */,
+				A43B031A13F19CB3009FD717 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43B02E813F19CB2009FD717 = {
+			isa = PBXGroup;
+			children = (
+				A43B02FD13F19CB3009FD717 /* StarIDN */,
+				A43B031D13F19CB3009FD717 /* StarIDNTests */,
+				A43B02F613F19CB3009FD717 /* Frameworks */,
+				A43B02F413F19CB3009FD717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43B02F413F19CB3009FD717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43B02F313F19CB3009FD717 /* StarIDN.app */,
+				A43B031713F19CB3009FD717 /* StarIDNTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43B02F613F19CB3009FD717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43B02F713F19CB3009FD717 /* UIKit.framework */,
+				A43B02F913F19CB3009FD717 /* Foundation.framework */,
+				A43B02FB13F19CB3009FD717 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A43B02FD13F19CB3009FD717 /* StarIDN */ = {
+			isa = PBXGroup;
+			children = (
+				A43B033813F19D77009FD717 /* Agilent iOS IO */,
+				A43B030613F19CB3009FD717 /* StarIDNAppDelegate.h */,
+				A43B030713F19CB3009FD717 /* StarIDNAppDelegate.m */,
+				A43B030913F19CB3009FD717 /* MainWindow.xib */,
+				A43B030C13F19CB3009FD717 /* StarIDNViewController.h */,
+				A43B030D13F19CB3009FD717 /* StarIDNViewController.m */,
+				A43B030F13F19CB3009FD717 /* StarIDNViewController.xib */,
+				A43B03E413F1A2EF009FD717 /* Agilent Logo retina.png */,
+				A498D46C13F1BF880079EFC4 /* Icon.png */,
+				A43B02FE13F19CB3009FD717 /* Supporting Files */,
+			);
+			path = StarIDN;
+			sourceTree = "<group>";
+		};
+		A43B02FE13F19CB3009FD717 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43B02FF13F19CB3009FD717 /* StarIDN-Info.plist */,
+				A43B030013F19CB3009FD717 /* InfoPlist.strings */,
+				A43B030313F19CB3009FD717 /* StarIDN-Prefix.pch */,
+				A43B030413F19CB3009FD717 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43B031D13F19CB3009FD717 /* StarIDNTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43B032413F19CB3009FD717 /* StarIDNTests.h */,
+				A43B032613F19CB3009FD717 /* StarIDNTests.m */,
+				A43B031E13F19CB3009FD717 /* Supporting Files */,
+			);
+			path = StarIDNTests;
+			sourceTree = "<group>";
+		};
+		A43B031E13F19CB3009FD717 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43B031F13F19CB3009FD717 /* StarIDNTests-Info.plist */,
+				A43B032013F19CB3009FD717 /* InfoPlist.strings */,
+				A43B032313F19CB3009FD717 /* StarIDNTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43B033813F19D77009FD717 /* Agilent iOS IO */ = {
+			isa = PBXGroup;
+			children = (
+				A43B03DB13F19E78009FD717 /* AiOS_IO.h */,
+				A43B03DC13F19E78009FD717 /* AiOS_IO.m */,
+				A43B03DD13F19E78009FD717 /* Error.h */,
+				A43B03DE13F19E78009FD717 /* Error.m */,
+				A43B03DF13F19E78009FD717 /* SocketIO.h */,
+				A43B03E013F19E78009FD717 /* SocketIO.m */,
+			);
+			name = "Agilent iOS IO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43B02F213F19CB3009FD717 /* StarIDN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43B032A13F19CB3009FD717 /* Build configuration list for PBXNativeTarget "StarIDN" */;
+			buildPhases = (
+				A43B02EF13F19CB3009FD717 /* Sources */,
+				A43B02F013F19CB3009FD717 /* Frameworks */,
+				A43B02F113F19CB3009FD717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarIDN;
+			productName = StarIDN;
+			productReference = A43B02F313F19CB3009FD717 /* StarIDN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43B031613F19CB3009FD717 /* StarIDNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43B032D13F19CB3009FD717 /* Build configuration list for PBXNativeTarget "StarIDNTests" */;
+			buildPhases = (
+				A43B031213F19CB3009FD717 /* Sources */,
+				A43B031313F19CB3009FD717 /* Frameworks */,
+				A43B031413F19CB3009FD717 /* Resources */,
+				A43B031513F19CB3009FD717 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43B031C13F19CB3009FD717 /* PBXTargetDependency */,
+			);
+			name = StarIDNTests;
+			productName = StarIDNTests;
+			productReference = A43B031713F19CB3009FD717 /* StarIDNTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43B02EA13F19CB2009FD717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Agilent Technologies";
+			};
+			buildConfigurationList = A43B02ED13F19CB2009FD717 /* Build configuration list for PBXProject "StarIDN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A43B02E813F19CB2009FD717;
+			productRefGroup = A43B02F413F19CB3009FD717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43B02F213F19CB3009FD717 /* StarIDN */,
+				A43B031613F19CB3009FD717 /* StarIDNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43B02F113F19CB3009FD717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B030213F19CB3009FD717 /* InfoPlist.strings in Resources */,
+				A43B030B13F19CB3009FD717 /* MainWindow.xib in Resources */,
+				A43B031113F19CB3009FD717 /* StarIDNViewController.xib in Resources */,
+				A43B03E513F1A2EF009FD717 /* Agilent Logo retina.png in Resources */,
+				A498D46D13F1BF880079EFC4 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43B031413F19CB3009FD717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B032213F19CB3009FD717 /* InfoPlist.strings in Resources */,
+				A43B032513F19CB3009FD717 /* StarIDNTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A43B031513F19CB3009FD717 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43B02EF13F19CB3009FD717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B030513F19CB3009FD717 /* main.m in Sources */,
+				A43B030813F19CB3009FD717 /* StarIDNAppDelegate.m in Sources */,
+				A43B030E13F19CB3009FD717 /* StarIDNViewController.m in Sources */,
+				A43B03E113F19E78009FD717 /* AiOS_IO.m in Sources */,
+				A43B03E213F19E78009FD717 /* Error.m in Sources */,
+				A43B03E313F19E78009FD717 /* SocketIO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43B031213F19CB3009FD717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B032713F19CB3009FD717 /* StarIDNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43B031C13F19CB3009FD717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43B02F213F19CB3009FD717 /* StarIDN */;
+			targetProxy = A43B031B13F19CB3009FD717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43B030013F19CB3009FD717 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43B030113F19CB3009FD717 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A43B030913F19CB3009FD717 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43B030A13F19CB3009FD717 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A43B030F13F19CB3009FD717 /* StarIDNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43B031013F19CB3009FD717 /* en */,
+			);
+			name = StarIDNViewController.xib;
+			sourceTree = "<group>";
+		};
+		A43B032013F19CB3009FD717 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43B032113F19CB3009FD717 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43B032813F19CB3009FD717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A43B032913F19CB3009FD717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A43B032B13F19CB3009FD717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarIDN/StarIDN-Prefix.pch";
+				INFOPLIST_FILE = "StarIDN/StarIDN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A43B032C13F19CB3009FD717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarIDN/StarIDN-Prefix.pch";
+				INFOPLIST_FILE = "StarIDN/StarIDN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A43B032E13F19CB3009FD717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarIDN.app/StarIDN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarIDNTests/StarIDNTests-Prefix.pch";
+				INFOPLIST_FILE = "StarIDNTests/StarIDNTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A43B032F13F19CB3009FD717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarIDN.app/StarIDN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarIDNTests/StarIDNTests-Prefix.pch";
+				INFOPLIST_FILE = "StarIDNTests/StarIDNTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43B02ED13F19CB2009FD717 /* Build configuration list for PBXProject "StarIDN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43B032813F19CB3009FD717 /* Debug */,
+				A43B032913F19CB3009FD717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43B032A13F19CB3009FD717 /* Build configuration list for PBXNativeTarget "StarIDN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43B032B13F19CB3009FD717 /* Debug */,
+				A43B032C13F19CB3009FD717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43B032D13F19CB3009FD717 /* Build configuration list for PBXNativeTarget "StarIDNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43B032E13F19CB3009FD717 /* Debug */,
+				A43B032F13F19CB3009FD717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43B02EA13F19CB2009FD717 /* Project object */;
+}
