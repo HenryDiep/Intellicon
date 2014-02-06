@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A2DF5B0-681A-47A4-B504-309083E24CF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StarIDN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>083B817A-009C-497F-B857-2FB152430F92</key>
+		<string>ssh://github.com/HenryDiep/Intellicon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StarIDN.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>083B817A-009C-497F-B857-2FB152430F92</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/HenryDiep/Intellicon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>083B817A-009C-497F-B857-2FB152430F92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>083B817A-009C-497F-B857-2FB152430F92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StarIDN</string>
+		</dict>
+	</array>
+</dict>
+</plist>
